@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="nav-background" class="navbar-brand" href="index.html">JavaScript Quiz</a>
+      
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="#quiz-timer"> <span class="sr-only">(current)</span></a
+            >
+          </li>
+          </div>
+          </ul>
+      </div>
+      <p class="nav-item nav-link text-right">
+        Time: <span id="quiz-timer">--</span>
+      </p>
+    </nav>
+    <div class="container" id="welcome">
+      <div class="row">
+        <div class="col-sm-12 text-center" id="welcome-container">
+          <h1>Javscript Coding Quiz</h1>
+          <h3>
+            Get ready to answer 5 JavaScript coding questions. You will have 60
+            seconds but if you get an answer wrong 15 seconds will be deducted
+            from the timer.
+          </h3>
+          <button type="button" class="btn btn-primary" id="start-quiz">
+            Start Quiz
+          </button>
+          <div class="col-sm-2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center" id="question-container"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-1 text-center" id="answer-container"></div>
+      <div class="col-sm-8"></div>
+    </div>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
